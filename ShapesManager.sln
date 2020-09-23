@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesManager", "ShapesManager\ShapesManager.csproj", "{CF3C6059-5DE1-42D1-879F-0C5C0A7DB84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{04703381-354B-4545-95B7-0155CF4ABC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visuals", "Visuals\Visuals.csproj", "{FB20A2DD-09B2-4D65-8025-A0DAD37DCBD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF3C6059-5DE1-42D1-879F-0C5C0A7DB84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3C6059-5DE1-42D1-879F-0C5C0A7DB84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3C6059-5DE1-42D1-879F-0C5C0A7DB84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3C6059-5DE1-42D1-879F-0C5C0A7DB84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04703381-354B-4545-95B7-0155CF4ABC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04703381-354B-4545-95B7-0155CF4ABC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04703381-354B-4545-95B7-0155CF4ABC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04703381-354B-4545-95B7-0155CF4ABC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB20A2DD-09B2-4D65-8025-A0DAD37DCBD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB20A2DD-09B2-4D65-8025-A0DAD37DCBD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB20A2DD-09B2-4D65-8025-A0DAD37DCBD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB20A2DD-09B2-4D65-8025-A0DAD37DCBD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF434F95-7265-468F-B7C3-755605EE6E25}
+	EndGlobalSection
+EndGlobal
