@@ -7,6 +7,55 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Label/>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label Grid.Row="0" Grid.Column="0" Content="Shape Name"></Label>
+        <TextBox Grid.Row="0" Grid.Column="1" Height="25" Width="75"
+                 HorizontalAlignment="Left"
+                 VerticalContentAlignment="Center"
+                 VerticalAlignment="Top"
+                 Text="{Binding ShapeName, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="1" Grid.Column="0" Content="Shape Color"></Label>
+        <TextBox Grid.Row="1" Grid.Column="1" Height="25" Width="75"
+                 HorizontalAlignment="Left"
+                 VerticalContentAlignment="Center"
+                 VerticalAlignment="Top"
+                 Text="{Binding ShapeColor, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="2" Grid.Column="0" Content="Shape Size"></Label>
+        <TextBox Grid.Row="2" Grid.Column="1" Height="25" Width="75"
+                 HorizontalAlignment="Left"
+                 VerticalContentAlignment="Center"
+                 VerticalAlignment="Top"
+                 Text="{Binding ShapeSize, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Shape X"></Label>
+        <TextBox Grid.Row="3" Grid.Column="1" Height="25" Width="75"
+                 HorizontalAlignment="Left"
+                 VerticalContentAlignment="Center"
+                 VerticalAlignment="Top"
+                 Text="{Binding ShapeX, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Shape Y"></Label>
+        <TextBox Grid.Row="4" Grid.Column="1" Height="25" Width="75"
+                 HorizontalAlignment="Left"
+                 VerticalContentAlignment="Center"
+                 VerticalAlignment="Top"
+                 Text="{Binding ShapeY, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Button Grid.Row="5" Grid.Column="0" Content="Save Shape" Command="{Binding SaveShapeCommand}"/>
     </Grid>
 </Window>

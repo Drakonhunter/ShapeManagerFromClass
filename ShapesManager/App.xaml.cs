@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using Visuals;
 
 namespace ShapesManager
 {
@@ -17,6 +18,14 @@ namespace ShapesManager
         {
             var window = new MainWindow();
 
+            var vm = new ShapeVM();
+            vm.ShapeName = "Circle";
+            vm.ShapeColor = "Red";
+            vm.ShapeSize = .5;
+            vm.ShapeX = 10;
+            vm.ShapeY = 7;
+
+            window.DataContext = vm;
             window.Show();
         }
     }
